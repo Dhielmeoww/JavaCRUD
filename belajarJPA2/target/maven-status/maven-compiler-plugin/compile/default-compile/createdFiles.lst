@@ -1,0 +1,6 @@
+com\prodemy\controller\MahasiswaController.class
+com\prodemy\service\MahasiswaService.class
+com\prodemy\repo\MahasiswaRepository.class
+com\prodemy\ServletInitializer.class
+com\prodemy\BelajarJpa2Application.class
+com\prodemy\model\Mahasiswa.class
