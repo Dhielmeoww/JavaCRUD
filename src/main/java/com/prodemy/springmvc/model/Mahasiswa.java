@@ -18,18 +18,19 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @Entity
-@Table(name = "mahasiswa", schema = "task1")
+@Table(name = "\"MAHASISWA\"")
 public class Mahasiswa {
 	@Id
-	@Column(name = "mhs_id")
+	@Column(name = "\"MHS_ID\"")
 	private String id;
-	
-	@Column(name = "mhs_nim")
+
+	@Column(name = "\"MHS_NIM\"")
 	private String nim;
-	
-	@Column(name = "mhs_nama")
+
+	@Column(name = "\"MHS_NAMA\"")
 	private String nama;
-	
-	@Column(name = "mhs_alamat")
+
+	@Column(name = "\"MHS_ALAMAT\"")
 	private String alamat;
+
 }
